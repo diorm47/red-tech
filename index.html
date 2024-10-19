@@ -24,8 +24,35 @@
           <a href="./project.html"><p>Projects</p></a>
           <a href="./industries.html"><p>Industries</p></a>
         </div>
-        <a href="./contact-us.html"><button class="line_btn">Contact us</button></a>
+        <img src="./assets/menu.jpg" class="menu" onclick="toggleMenu()" />
+        <a href="./contact-us.html"
+          ><button class="line_btn">Contact us</button></a
+        >
       </div>
+      <!--  -->
+      <div class="mob_nav">
+        <div class="mob_nav_exit">
+          <img src="./assets/reject.png" alt="" onclick="toggleMenu()" />
+        </div>
+        <div class="nav_menu">
+          <a href="./about.html"><p>About us</p></a>
+          <a href="./services.html"><p>Services</p></a>
+          <a href="./technologies.html"><p>Technologies</p></a>
+          <a href="./project.html"><p>Projects</p></a>
+          <a href="./industries.html"><p>Industries</p></a>
+          <a href="./contact-us.html"
+            ><button class="line_btn">Contact us</button></a
+          >
+        </div>
+      </div>
+      <script>
+        function toggleMenu() {
+          document
+            .querySelector(".mob_nav")
+            .classList.toggle("visible_mob_nav");
+        }
+      </script>
+      <!--  -->
     </nav>
     <header class="container">
       <div class="main_titile">

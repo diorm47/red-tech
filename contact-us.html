@@ -19,10 +19,35 @@
           <a href="./project.html"><p>Projects</p></a>
           <a href="./industries.html"><p>Industries</p></a>
         </div>
+        <img src="./assets/menu.jpg" class="menu" onclick="toggleMenu()" />
         <a href="./contact-us.html"
           ><button class="line_btn">Contact us</button></a
         >
       </div>
+      <!--  -->
+      <div class="mob_nav">
+        <div class="mob_nav_exit">
+          <img src="./assets/reject.png" alt="" onclick="toggleMenu()" />
+        </div>
+        <div class="nav_menu">
+          <a href="./about.html"><p>About us</p></a>
+          <a href="./services.html"><p>Services</p></a>
+          <a href="./technologies.html"><p>Technologies</p></a>
+          <a href="./project.html"><p>Projects</p></a>
+          <a href="./industries.html"><p>Industries</p></a>
+          <a href="./contact-us.html"
+            ><button class="line_btn">Contact us</button></a
+          >
+        </div>
+      </div>
+      <script>
+        function toggleMenu() {
+          document
+            .querySelector(".mob_nav")
+            .classList.toggle("visible_mob_nav");
+        }
+      </script>
+      <!--  -->
     </nav>
     <div class="contacts_line"></div>
     <div class="contacts_header container">
@@ -100,47 +125,46 @@
       </div>
     </div>
     <footer>
-        <div class="footer_wrapper container">
-          <div class="footer_wrapper_top">
-            <div class="footer_wrapper_top_desc">
-              <a href="./index.html">
-                <img src="./assets/logo.png" alt="" />
-              </a>
-              <h4>
-                REDLINE IT has proudly developed websites, apps and software since
-                2007. With offices worldwide in the Belarus and Ukraine we offer
-                global solutions to all your business needs.
-              </h4>
-            </div>
-            <div class="footer_menu">
-              <h4>About us</h4>
-              <a href="#"><p>Website development services</p></a>
-              <a href="#"><p>Mobile & App development</p></a>
-              <a href="#"><p>Design & Custom</p></a>
-              <a href="#"><p>E-commerce</p></a>
-            </div>
-            <div class="footer_menu">
-              <h4>Services</h4>
-              <a href="#"><p>Website development services</p></a>
-              <a href="#"><p>Mobile & App development</p></a>
-              <a href="#"><p>Design & Custom</p></a>
-              <a href="#"><p>E-commerce</p></a>
-            </div>
-            <div class="footer_menu footer_contact">
-              <h4>Contact</h4>
-              <a href="tel:+ 16175008508"><p>+ 16175008508</p></a>
-              <a href="#"><p>skype: redtech_it</p></a>
-              <a href="mailto:info@redtechit.com"><p>info@redtechit.com</p></a>
-            </div>
+      <div class="footer_wrapper container">
+        <div class="footer_wrapper_top">
+          <div class="footer_wrapper_top_desc">
+            <a href="./index.html">
+              <img src="./assets/logo.png" alt="" />
+            </a>
+            <h4>
+              REDLINE IT has proudly developed websites, apps and software since
+              2007. With offices worldwide in the Belarus and Ukraine we offer
+              global solutions to all your business needs.
+            </h4>
           </div>
-          <div class="footer_copyright">
-            <p>
-              © 2008-2024 REDLINE IT, inc. <br />
-              All trademarks acknowledged.
-            </p>
+          <div class="footer_menu">
+            <h4>About us</h4>
+            <a href="#"><p>Website development services</p></a>
+            <a href="#"><p>Mobile & App development</p></a>
+            <a href="#"><p>Design & Custom</p></a>
+            <a href="#"><p>E-commerce</p></a>
+          </div>
+          <div class="footer_menu">
+            <h4>Services</h4>
+            <a href="#"><p>Website development services</p></a>
+            <a href="#"><p>Mobile & App development</p></a>
+            <a href="#"><p>Design & Custom</p></a>
+            <a href="#"><p>E-commerce</p></a>
+          </div>
+          <div class="footer_menu footer_contact">
+            <h4>Contact</h4>
+            <a href="tel:+ 16175008508"><p>+ 16175008508</p></a>
+            <a href="#"><p>skype: redtech_it</p></a>
+            <a href="mailto:info@redtechit.com"><p>info@redtechit.com</p></a>
           </div>
         </div>
-      </footer>
-  
+        <div class="footer_copyright">
+          <p>
+            © 2008-2024 REDLINE IT, inc. <br />
+            All trademarks acknowledged.
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
