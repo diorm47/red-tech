@@ -1113,7 +1113,7 @@ footer {
   align-self: center;
   justify-content: space-between;
 }
-.ind_drop_item_desc_title h4 {
+.ind_drop_item h4 {
   /* Subtitle 2 */
   color: rgb(29, 29, 29);
   font-family: Michroma;
@@ -1390,15 +1390,137 @@ footer {
 
 .project_ct .contact_block_left h3 {
   /* Title 1 */
-color: rgb(255, 255, 255);
-font-family: Michroma;
-font-size: 40px;
-font-weight: 400;
-line-height: 57px;
-letter-spacing: 0%;
-text-align: left;
-margin-bottom: 40px;
+  color: rgb(255, 255, 255);
+  font-family: Michroma;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 57px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 40px;
 }
 .project_ct .contact_block_left {
   width: 50%;
+}
+
+.projects_nav {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 47px;
+  gap: 8px;
+}
+.projects_nav img {
+  margin-right: 8px;
+}
+
+.projects_nav p {
+  /* Text_Small */
+  color: rgb(182, 182, 182);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.projects_nav p:hover {
+  text-decoration: underline;
+}
+
+.project_page_img {
+  width: 100%;
+  margin: 56px 0;
+}
+
+.project_p_desc_title_line {
+  border-radius: 2px;
+  position: absolute;
+  width: 308px;
+  top: 60px;
+  height: 4px;
+  background: rgb(209, 5, 5);
+}
+.project_p_desc_title {
+  position: relative;
+}
+.project_p_desc p {
+  /* Text_body */
+  color: rgb(29, 29, 29);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.project_p_desc_techs {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.project_p_desc ul {
+  padding-left: 20px;
+  padding-bottom: 16px;
+}
+.project_p_desc {
+  padding-bottom: 200px;
+}
+.project_page_card {
+  width: 524px;
+  height: 810px;
+  /* Secondary */
+  border: 2px solid rgb(29, 29, 29);
+  border-radius: 16px;
+
+  /* Background */
+  background: rgb(255, 255, 255);
+}
+.project_page_card img {
+  width: 100%;
+}
+
+.project_page_card_desc {
+  padding: 32px 40px 40px;
+}
+.project_page_card_desc h2 {
+  /* Title 2 */
+  color: rgb(29, 29, 29);
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.project_page_car_w {
+  width: 100%;
+  overflow: hidden;
+}
+.project_page_car {
+  padding-bottom: 120px;
+}
+.project_page_car_arrows {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding-top: 56px;
+}
+
+.project_page_car_arrow {
+  cursor: pointer;
+}
+.project_page_car_arrow  {
+  position: static !important;
+}
+
+.roadmap_list {
+  padding-left: 107px;
+}
+.roadmap_list .ind_drop_item_desc {
+  width: 80%;
 }
